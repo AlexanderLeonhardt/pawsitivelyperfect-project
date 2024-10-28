@@ -12,6 +12,10 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        inter: ['var(--font-inter)'],
+        dynapuff: ['var(--font-dynapuff)'],
+      }
     },
   },
   plugins: [],
