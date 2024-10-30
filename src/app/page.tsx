@@ -14,7 +14,7 @@ export default function Home() {
 
         <div className="h-[40rem] max-w-6xl m-auto px-8 flex justify-center items-center md:justify-end">
           <div className="font-bold bg-gradient-to-r from-black to-transparent p-4 max-w-[28rem] flex flex-col gap-4">
-            <p className="text-white text-3xl">Give Your Pet the Pampering They Deserve!</p>
+            <h1 className="text-white text-3xl">Give Your Pet the Pampering They Deserve!</h1>
             <div>
               <button className="bg-green-700 text-xl text-white rounded-md p-2 hover:bg-green-900">Book Appointment</button>
             </div>
