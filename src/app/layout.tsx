@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, DynaPuff } from 'next/font/google';
 import "./globals.css";
-import Nav from '@/components/Nav';
+import Navbar from '@/components/Navbar';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -30,7 +30,7 @@ export default function RootLayout({
       <body
         className={`font-inter ${inter.variable} ${dynapuff.variable}`}
       >
-        <Nav />
+        <Navbar />
         {children}
       </body>
     </html>
