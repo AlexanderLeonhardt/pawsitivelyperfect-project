@@ -21,6 +21,17 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section>
+        <div className="max-w-6xl m-auto p-4 flex flex-col items-center gap-8">
+          <h2 className="text-3xl font-bold">A Spa Day for Your Furry Friend</h2>
+          <hr className="w-32 border-t-2 border-green-700"/>
+          <div className="text-lg flex flex-col items-start gap-4">
+            <p>Welcome to Pawsitively Perfect Grooming, where we treat every pet like family! Our professional team is dedicated to providing gentle, high-quality grooming services to keep your furry friend looking and feeling their best.</p>
+            <p>From soothing baths to full grooming packages, <strong>we&apos;re here to make your pet&apos;s visit enjoyable and stress-free</strong>. Discover our range of services, read what our happy clients have to say, and book an appointment to experience the Pawsitively Perfect difference!</p>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
