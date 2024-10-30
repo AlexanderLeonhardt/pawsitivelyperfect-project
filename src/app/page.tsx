@@ -24,7 +24,7 @@ export default function Home() {
 
       <section>
         <div className="max-w-6xl m-auto p-4 flex flex-col items-center gap-8">
-          <h2 className="text-3xl font-bold">A Spa Day for Your Furry Friend</h2>
+          <h2 className="text-3xl font-bold text-center">A Spa Day for Your Furry Friend</h2>
           <hr className="w-32 border-t-2 border-green-700"/>
           <div className="text-lg flex flex-col items-start gap-4">
             <p>Welcome to Pawsitively Perfect Grooming, where we treat every pet like family! Our professional team is dedicated to providing gentle, high-quality grooming services to keep your furry friend looking and feeling their best.</p>
