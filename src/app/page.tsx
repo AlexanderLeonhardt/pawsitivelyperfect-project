@@ -12,7 +12,7 @@ export default function Home() {
           priority
         />
 
-        <div className="h-[40rem] max-w-6xl m-auto flex justify-center items-center md:justify-end">
+        <div className="h-[40rem] max-w-6xl m-auto px-8 flex justify-center items-center md:justify-end">
           <div className="font-bold bg-gradient-to-r from-black to-transparent p-4 max-w-[28rem] flex flex-col gap-4">
             <p className="text-white text-3xl">Give Your Pet the Pampering They Deserve!</p>
             <div>
@@ -23,7 +23,7 @@ export default function Home() {
       </section>
 
       <section>
-        <div className="max-w-6xl m-auto p-4 flex flex-col items-center gap-8">
+        <div className="max-w-6xl m-auto px-8 flex flex-col items-center gap-8">
           <h2 className="text-3xl font-bold text-center">A Spa Day for Your Furry Friend</h2>
           <hr className="w-32 border-t-2 border-green-700"/>
           <div className="text-lg flex flex-col items-start gap-4">
