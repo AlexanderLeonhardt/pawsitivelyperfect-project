@@ -1,9 +1,16 @@
+import Image from "next/image";
 
 export default function Home() {
   return (
     <main>
-      <h1 className="font-dynapuff text-5xl font-bold text-center">Pawsitively Perfect Grooming</h1>
-      <div className="h-screen">long div</div>
+      <div className="relative w-full h-[700px]">
+        <Image 
+          className="object-cover"
+          src={'/banner.jpg'} 
+          alt="banner"
+          fill
+        />
+      </div>
     </main>
   );
 }
