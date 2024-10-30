@@ -12,12 +12,16 @@ const Navbar = () => {
     setMenuIsVisible(false);
   }, [pathname]);
 
-  const navlinks = [
-    { href: '/', text: 'Home'},
-    { href: '/about', text: 'About' },
-    { href: '/services', text: 'Services' },
-    { href: '/contact', text: 'Contact' },
-  ]
+  const NavLinks = () => {
+    const navlinks = [
+      { href: '/', text: 'Home'},
+      { href: '/about', text: 'About' },
+      { href: '/services', text: 'Services' },
+      { href: '/contact', text: 'Contact' },
+    ];
+
+    return navlinks.map(link => <Link key={link.href} href={link.href} className={`p-2 uppercase font-bold hover:text-green-600 hover:underline hover:decoration-4 ${link.href === pathname ? 'text-green-600 underline decoration-4' : ''}`}>{link.text}</Link>);
+  }
 
   return (
     <header className="sticky top-0 h-16 bg-white shadow-md">
@@ -28,7 +32,7 @@ const Navbar = () => {
 
         {/* Desktop nav */}
         <nav className="hidden md:flex justify-center gap-12">
-          {navlinks.map(link => <Link key={link.href} href={link.href} className={`p-2 uppercase font-bold hover:text-green-600 hover:underline hover:decoration-4 ${link.href === pathname ? 'text-green-600 underline decoration-4' : ''}`}>{link.text}</Link>)}
+          <NavLinks />
         </nav>
 
         {/* Menu button */}
@@ -42,7 +46,7 @@ const Navbar = () => {
           : "fixed top-16 left-[-100%] w-full ease-in-out duration-500 shadow-md"
         }>
           <nav className="flex flex-col items-center gap-6">
-            {navlinks.map(link => <Link key={link.href} href={link.href} className={`p-2 uppercase font-bold hover:text-green-600 hover:underline hover:decoration-4 ${link.href === pathname ? 'text-green-600 underline decoration-4' : ''}`}>{link.text}</Link>)}
+            <NavLinks />
           </nav>
         </div>
       </div>
