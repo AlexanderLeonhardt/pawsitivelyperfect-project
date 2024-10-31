@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Services from "@/components/Services";
+import Reviews from "@/components/Reviews";
 
 export default function Home() {
   return (
@@ -41,6 +42,16 @@ export default function Home() {
           <div className="text-lg flex flex-col items-start gap-4">
             <p>Whether it&apos;s a quick nail trim or a full grooming session, we have the perfect service to meet your pet&apos;s needs.</p>
             <Services />
+          </div>
+        </div>
+      </section>
+
+      <section className="my-12">
+        <div className="max-w-6xl m-auto px-8 flex flex-col items-center gap-4">
+          <h2 className="text-3xl font-bold text-center">What Our Clients Are Saying</h2>
+          <hr className="w-32 border-t-2 border-green-700"/>
+          <div>
+            <Reviews />
           </div>
         </div>
       </section>
