@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Services from "@/components/Services";
 
 export default function Home() {
   return (
@@ -23,7 +24,7 @@ export default function Home() {
       </section>
 
       <section className="my-12">
-        <div className="max-w-6xl m-auto px-8 flex flex-col items-center gap-8">
+        <div className="max-w-6xl m-auto px-8 flex flex-col items-center gap-4">
           <h2 className="text-3xl font-bold text-center">A Spa Day for Your Furry Friend</h2>
           <hr className="w-32 border-t-2 border-green-700"/>
           <div className="text-lg flex flex-col items-start gap-4">
@@ -34,14 +35,12 @@ export default function Home() {
       </section>
 
       <section className="my-12">
-        <div className="max-w-6xl m-auto px-8 flex flex-col items-center gap-8">
+        <div className="max-w-6xl m-auto px-8 flex flex-col items-center gap-4">
           <h2 className="text-3xl font-bold text-center">Our Grooming Services</h2>
           <hr className="w-32 border-t-2 border-green-700"/>
           <div className="text-lg flex flex-col items-start gap-4">
             <p>Whether it&apos;s a quick nail trim or a full grooming session, we have the perfect service to meet your pet&apos;s needs.</p>
-          </div>
-          <div>
-
+            <Services />
           </div>
         </div>
       </section>
