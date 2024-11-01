@@ -50,9 +50,7 @@ export default function Home() {
         <div className="max-w-6xl m-auto px-8 flex flex-col items-center gap-4">
           <h2 className="text-3xl font-bold text-center">What Our Clients Are Saying</h2>
           <hr className="w-32 border-t-2 border-green-700"/>
-          <div>
-            <Reviews />
-          </div>
+          <Reviews />
         </div>
       </section>
     </main>

@@ -6,14 +6,14 @@ interface Props {
 }
 
 const Carousel = ({ children } : Props) => {
-  const childrenArray = React.Children.toArray(children);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const childrenArray = React.Children.toArray(children);
 
   useEffect(() => {
     if (childrenArray.length > 1) {
       const interval = setInterval(() => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % childrenArray?.length);
-      }, 1000 * 5);
+      }, 1000 * 10);
   
       return () => clearInterval(interval);
     }
@@ -22,16 +22,13 @@ const Carousel = ({ children } : Props) => {
   if (childrenArray.length === 0) return children;
 
   return (
-    <div className="relative w-full h-32 overflow-hidden flex justify-center items-center">
-      <div
-        className="flex transition-transform duration-500 ease-in-out"
-        style={{
-          transform: `translateX(-${currentIndex * 100}%)`,
-          width: `${childrenArray.length * 100}%`,
-        }}
+    <div className="relative overflow-hidden max-w-[500px] w-full shadow-xl rounded-xl">
+      <div 
+        className={`flex transition-transform duration-500 ease-in-out`}
+        style={{ transform: `translateX(-${currentIndex * 100}%)`}}
       >
         {childrenArray.map((child, index) => (
-          <div key={index} className="flex-shrink-0 w-full">
+          <div key={index} className="min-w-full">
             {child}
           </div>
         ))}
