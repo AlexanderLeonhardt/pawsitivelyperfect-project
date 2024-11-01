@@ -13,7 +13,7 @@ const Carousel = ({ children } : Props) => {
     if (childrenArray.length > 1) {
       const interval = setInterval(() => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % childrenArray?.length);
-      }, 1000 * 10);
+      }, 1000 * 5);
   
       return () => clearInterval(interval);
     }
