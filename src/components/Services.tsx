@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-
 const Services = () => {
   const serviceList = [
     { 
