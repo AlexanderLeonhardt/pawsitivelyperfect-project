@@ -58,4 +58,25 @@ const reviews = [
   },
 ];
 
-export { links, reviews };
+const members = [
+  {
+    name: 'Sarah',
+    job: 'Fouder & Head Groomer',
+    desc: 'With over 10 years in grooming, Sarah has a special touch when it comes to soothing anxious pets.',
+    picture: 'https://avatar.iran.liara.run/public/86'
+  },
+  {
+    name: 'Mike',
+    job: 'Senior Groomer',
+    desc: 'An expert in large breed grooming, Mike ensures every pet leaves looking their best.',
+    picture: 'https://avatar.iran.liara.run/public/13',
+  },
+  {
+    name: 'Jenny',
+    job: 'Assistant Groomer',
+    desc: 'Jenny brings a gentle approach to grooming, making her especially beloved by our smallest, most timid clients.',
+    picture: 'https://avatar.iran.liara.run/public/94',
+  },
+];
+
+export { links, reviews, members };
