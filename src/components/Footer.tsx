@@ -1,8 +1,19 @@
-
+import { links } from "@/data/const";
+import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral-950 text-neutral-300 flex flex-col gap-4 p-8 items-center">
+    <footer className="bg-neutral-950 text-white flex flex-col gap-4 p-8 items-center">
+      <div className="text-center divide-x-2">
+        {links.map(link => 
+          <Link 
+            key={link.href} 
+            href={link.href} 
+            className="p-2"
+          >{link.text}</Link>
+        )}
+      </div>
+
       <div className="text-center">
         <p>1234 Paws Avenue, Dogcity, FL 12345</p>
         <p>(555) 123-4567</p>
