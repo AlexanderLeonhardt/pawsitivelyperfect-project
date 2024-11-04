@@ -12,6 +12,16 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
+
+      <section className="my-12">
+        <div className="max-w-6xl m-auto px-8 flex flex-col items-center gap-4">
+          <h2 className="text-3xl font-bold text-center">Our Mission & Values</h2>
+          <hr className="w-32 border-t-2 border-green-700"/>
+          <div className="text-lg flex flex-col items-start gap-4">
+            <p>Our mission is to provide exceptional grooming services that enhance pets&apos; well-being and build lasting relationships with our clients and their furry family members. We believe in compassionate care, quality, and integrity in everything we do. Each pet is unique, and we value their comfort, safety, and happiness above all else.</p>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
