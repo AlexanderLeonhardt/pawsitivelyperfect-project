@@ -2,7 +2,7 @@
 const Testimonial = ({ text, cite, rating }:{text:string, cite:string, rating:number}) => {
 
   const RatingDisplay = ({amount}:{amount:number}) => {
-    let stars = '★' // ☆
+    let stars = '' // ☆
     for (let i = 0; i < amount; i++) {
       stars += '★';
     }
