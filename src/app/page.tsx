@@ -48,6 +48,16 @@ export default function Home() {
 
       <section className="my-12">
         <div className="max-w-6xl m-auto px-8 flex flex-col items-center gap-4">
+          <h2 className="text-3xl font-bold text-center">Why Choose Us?</h2>
+          <hr className="w-32 border-t-2 border-green-700"/>
+          <div className="text-lg flex flex-col items-start gap-4">
+            <p>We know your pet is family, and at Pawsitively Perfect Grooming, we treat them like our own. Our groomers are highly trained in pet handling, grooming techniques, and breed-specific needs, making us a trusted choice for pet parents. With a blend of expertise, compassion, and quality care, we&apos;re here to make your pet look and feel fantastic.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="my-12">
+        <div className="max-w-6xl m-auto px-8 flex flex-col items-center gap-4">
           <h2 className="text-3xl font-bold text-center">What Our Clients Are Saying</h2>
           <hr className="w-32 border-t-2 border-green-700"/>
           <Reviews />
