@@ -34,6 +34,16 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
+
+      <section className="my-12">
+        <div className="max-w-6xl m-auto px-8 flex flex-col items-center gap-4">
+          <h2 className="text-3xl font-bold text-center">Our Grooming Philosophy</h2>
+          <hr className="w-32 border-t-2 border-green-700"/>
+          <div className="text-lg flex flex-col items-start gap-4">
+            <p>At Pawsitively Perfect Grooming, we believe in a gentle, pet-first approach. We take the time to understand each pet&apos;s personality, needs, and comfort level, allowing us to tailor our grooming sessions to them. Our team uses top-quality, pet-safe products to ensure a healthy grooming experience. Whether it&apos;s a simple bath or a full grooming package, we&apos;re committed to creating a stress-free environment for every pet.</p>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
