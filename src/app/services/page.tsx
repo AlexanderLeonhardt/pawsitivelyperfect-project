@@ -47,6 +47,19 @@ const ServicesPage = () => {
           </div>
         </div>
       </section>
+
+      <section className="my-12">
+        <div className="max-w-6xl m-auto px-8 flex flex-col items-center gap-4">
+          <h1 className="text-3xl font-bold text-center">Book an Appointment</h1>
+          <hr className="w-32 border-t-2 border-green-700"/>
+          <div className="text-lg flex flex-col items-start gap-4">
+            <p>Ready to pamper your pet? Book an appointment with us today and let us take care of the rest! We look forward to welcoming you and your furry friend to Pawsitively Perfect Grooming.</p>
+            <div>
+              <button className="bg-green-700 text-xl text-white rounded-md p-2 hover:bg-green-900">Book Appointment</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
