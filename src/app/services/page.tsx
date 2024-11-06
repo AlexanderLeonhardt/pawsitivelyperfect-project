@@ -5,6 +5,16 @@ const ServicesPage = () => {
     <main>
       <section className="my-12">
         <div className="max-w-6xl m-auto px-8 flex flex-col items-center gap-4">
+          <h1 className="text-3xl font-bold text-center">Our Grooming Process</h1>
+          <hr className="w-32 border-t-2 border-green-700"/>
+          <div className="text-lg flex flex-col items-start gap-4">
+            <p>At Pawsitively Perfect Grooming, we follow a step-by-step process to ensure a smooth and enjoyable experience for every pet. From a warm bath and gentle drying to careful trimming and styling, our process is designed with your pet&apos;s comfort in mind.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="my-12">
+        <div className="max-w-6xl m-auto px-8 flex flex-col items-center gap-4">
           <h2 className="text-3xl font-bold text-center">Service Options</h2>
           <hr className="w-32 border-t-2 border-green-700"/>
           <div className="text-lg flex flex-col items-start gap-4">
