@@ -20,17 +20,17 @@ const ServicesPage = () => {
           <hr className="w-32 border-t-2 border-green-700"/>
           <div className="text-lg flex flex-col items-start gap-4">
             <p>Choose one or more available add-ons for your pet&apos;s visit.</p>
-            <ul>
+            <ul className="list-disc ml-5 flex flex-col gap-4">
               <li>
-                <h3>Flea & Tick Treatment <span>$10</span></h3>
+                <h3>Flea & Tick Treatment / <span className="text-green-700 font-bold">$10</span></h3>
                 <p>Keep pests at bay with our specialized flea and tick shampoo treatment, designed to provide lasting protection.</p>
               </li>
               <li>
-                <h3>Ear Cleaning & Deodorizing <span>$7</span></h3>
+                <h3>Ear Cleaning & Deodorizing / <span className="text-green-700 font-bold">$7</span></h3>
                 <p>A gentle ear cleaning service that removes wax buildup and leaves your pet&apos;s ears smelling fresh.</p>
               </li>
               <li>
-                <h3>Custom Fur Styling <span>$20</span></h3>
+                <h3>Custom Fur Styling / <span className="text-green-700 font-bold">$20</span></h3>
                 <p>Looking for a unique style? Our groomers offer custom fur cuts tailored to your preference—whether it&apos;s a fun trim or a breed-specific look.</p>
               </li>
             </ul>
