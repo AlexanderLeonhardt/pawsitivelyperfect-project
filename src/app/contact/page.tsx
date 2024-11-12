@@ -3,8 +3,9 @@ import ContactForm from "@/components/ContactForm";
 const ContactPage = () => {
   return (
     <main>
-      <h1>Contact Page</h1>
-      <ContactForm />
+      <div className="mx-auto p-4 md:w-1/2">
+        <ContactForm />
+      </div>
     </main>
   );
 }

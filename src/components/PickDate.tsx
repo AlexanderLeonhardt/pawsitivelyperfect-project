@@ -18,6 +18,8 @@ const PickDate = () => {
       onChange={(date) => setStartDate(date)}
       filterDate={(date) => excludeDates(date)}
       name="date"
+      required
+      className="bg-slate-500 text-white placeholder-slate-400 rounded-xl p-2 outline-1 outline-slate-100"
       placeholderText="Select a date"
     />
   );
