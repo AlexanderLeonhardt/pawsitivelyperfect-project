@@ -14,64 +14,66 @@ const ContactForm = () => {
   }
 
   return (
-    <form action={formAction} className="flex flex-col gap-4">
-      <div className="flex flex-col gap-4 bg-slate-400 p-4 rounded-xl">
+    <form action={formAction} className="flex flex-col gap-4 p-4 shadow-xl">
+      <div className="flex flex-col gap-4">
 
         <div className="flex justify-between items-center">
-          <label htmlFor="ownername" className="text-white">Name</label>
+          <label htmlFor="ownername">Name</label>
           <input 
             name="ownername" 
             type="text" 
             required 
             placeholder="Your Name" 
-            className="bg-slate-500 text-white placeholder-slate-400 rounded-xl p-2 outline-1 outline-slate-100"
+            className="placeholder-slate-400 p-2 outline-1 outline-slate-300 bg-slate-100 w-8/12"
           />
         </div>
 
         <div className="flex justify-between items-center">
-          <label htmlFor="email" className="text-white">Email</label>
+          <label htmlFor="email">Email</label>
           <input 
             name="email" 
             type="email" 
             required 
             placeholder="Email" 
-            className="bg-slate-500 text-white placeholder-slate-400 rounded-xl p-2 outline-1 outline-slate-100"
+            className="placeholder-slate-400 p-2 outline-1 outline-slate-300 bg-slate-100 w-8/12"
           />
         </div>
 
         <div className="flex justify-between items-center">
-          <label htmlFor="phone" className="text-white">Phone #</label>
+          <label htmlFor="phone">Phone #</label>
           <PhoneInput name="phone"/>
         </div>
 
         <div className="flex justify-between items-center">
-          <label htmlFor="ownername" className="text-white">Pet's Name</label>
+          <label htmlFor="ownername">Pet's Name</label>
           <input 
             name="petname" 
             type="text" 
             required 
             placeholder="Pet's Name" 
-            className="bg-slate-500 text-white placeholder-slate-400 rounded-xl p-2 outline-1 outline-slate-100"
+            className="placeholder-slate-400 p-2 outline-1 outline-slate-300 bg-slate-100 w-8/12"
           />
         </div>
 
         <div className="flex justify-between items-center">
-          <label htmlFor="ownername" className="text-white">Weight (lbs)</label>
+          <label htmlFor="ownername">Weight (lbs)</label>
           <input 
             name="weight" 
             type="number" 
             required 
             placeholder="Weight in lbs" 
-            className="bg-slate-500 text-white placeholder-slate-400 rounded-xl p-2 outline-1 outline-slate-100"
+            className="placeholder-slate-400 p-2 outline-1 outline-slate-300 bg-slate-100 w-8/12"
           />
         </div>
 
         <div className="flex justify-between items-center">
-          <label htmlFor="date" className="text-white">Date</label>
-          <PickDate />
+          <label htmlFor="date">Date</label>
+          <div className="w-8/12">
+            <PickDate />
+          </div>
         </div>
       </div>
-      <button type="submit">Submit</button>
+      <button type="submit" className="p-2 text-white bg-slate-400 rounded-xl">Submit</button>
     </form>
   );
 }

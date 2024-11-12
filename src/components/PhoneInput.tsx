@@ -35,7 +35,7 @@ const PhoneInput = ({ name }: { name: string }) => {
       maxLength={14}
       required
       placeholder="(123) 456-7890"
-      className="bg-slate-500 text-white placeholder-slate-400 rounded-xl p-2 outline-1 outline-slate-100"
+      className="placeholder-slate-400 p-2 outline-1 outline-slate-300 bg-slate-100 w-8/12"
     />
   );
 };
