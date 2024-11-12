@@ -17,6 +17,7 @@ const PickDate = () => {
       selected={startDate}
       onChange={(date) => setStartDate(date)}
       filterDate={(date) => excludeDates(date)}
+      name="date"
       placeholderText="Select a date"
     />
   );

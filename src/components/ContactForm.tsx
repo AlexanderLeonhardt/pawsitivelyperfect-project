@@ -9,6 +9,7 @@ const ContactForm = () => {
     console.log('Pet:', data.get('petname'));
     console.log('Breed:', data.get('breed'));
     console.log('Weight:', data.get('weight'));
+    console.log('Date:', data.get('date'));
   }
 
   return (
