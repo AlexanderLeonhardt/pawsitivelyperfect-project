@@ -17,7 +17,7 @@ const SuccessPage = () => {
           <h1 className="text-3xl font-bold text-center">Appointment Scheduled</h1>
           <hr className="w-32 border-t-2 border-green-700"/>
           <div className="text-lg flex flex-col items-center gap-4">
-            <p>Thank you for booking an appointment. We will reach out to you at the earliest convenience.</p>
+            <p>Thank you for booking an appointment! We look forward to seeing you and will reach out at the earliest convenience.</p>
             <Link href='/contact' className="underline">Click here if you are not automatically redirected.</Link>
           </div>
         </div>
