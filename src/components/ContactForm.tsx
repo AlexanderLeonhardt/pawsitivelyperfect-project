@@ -1,3 +1,4 @@
+import { redirect } from "next/navigation";
 import PhoneInput from "./PhoneInput";
 import PickDate from "./PickDate";
 
@@ -11,6 +12,8 @@ const ContactForm = () => {
     console.log('breed:', data.get('breed'));
     console.log('weight:', data.get('weight'));
     console.log('date:', data.get('date'));
+
+    redirect('/contact/success');
   }
 
   return (
@@ -45,7 +48,7 @@ const ContactForm = () => {
         </div>
 
         <div className="flex justify-between items-center">
-          <label htmlFor="ownername">Pet's Name</label>
+          <label htmlFor="ownername">Pet&apos;s Name</label>
           <input 
             name="petname" 
             type="text" 
