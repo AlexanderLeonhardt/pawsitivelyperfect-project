@@ -7,7 +7,7 @@ const SuccessPage = () => {
   useEffect(() => {
     setTimeout(() => {
       redirect('/contact');
-    }, 10000);
+    }, 5000);
   }, []);
 
   return (
