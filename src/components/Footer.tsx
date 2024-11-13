@@ -20,7 +20,7 @@ const Footer = () => {
         <p><a href="mailto:info@pawsitivelyperfectgrooming.com">info@pawsitivelyperfectgrooming.com</a></p>
       </div>
 
-      <p className="text-neutral-600">Copyright © 2024 Pawsitively Perfect Grooming LLC. All rights reserved.</p>
+      <p className="text-neutral-600 line-through">Copyright © 2024 Pawsitively Perfect Grooming LLC. All rights reserved.</p>
     </footer>
   );
 }
