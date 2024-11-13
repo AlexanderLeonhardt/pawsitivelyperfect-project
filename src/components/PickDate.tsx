@@ -14,6 +14,7 @@ const PickDate = () => {
 
   return (
     <DatePicker
+      id="date"
       selected={startDate}
       onChange={(date) => setStartDate(date)}
       filterDate={(date) => excludeDates(date)}

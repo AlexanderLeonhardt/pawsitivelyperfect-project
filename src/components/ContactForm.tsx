@@ -23,8 +23,10 @@ const ContactForm = () => {
         <div className="flex justify-between items-center">
           <label htmlFor="ownername">Name</label>
           <input 
+            id="ownername"
             name="ownername" 
             type="text" 
+            autoComplete="on"
             required 
             placeholder="Your Name" 
             className="placeholder-slate-400 p-2 outline-1 outline-slate-300 bg-slate-100 w-8/12"
@@ -34,8 +36,10 @@ const ContactForm = () => {
         <div className="flex justify-between items-center">
           <label htmlFor="email">Email</label>
           <input 
+            id="email"
             name="email" 
             type="email" 
+            autoComplete="on"
             required 
             placeholder="Email" 
             className="placeholder-slate-400 p-2 outline-1 outline-slate-300 bg-slate-100 w-8/12"
@@ -50,6 +54,7 @@ const ContactForm = () => {
         <div className="flex justify-between items-center">
           <label htmlFor="ownername">Pet&apos;s Name</label>
           <input 
+            id="petname"
             name="petname" 
             type="text" 
             required 
@@ -61,6 +66,7 @@ const ContactForm = () => {
         <div className="flex justify-between items-center">
           <label htmlFor="ownername">Weight (lbs)</label>
           <input 
+            id="weight"
             name="weight" 
             type="number" 
             required 

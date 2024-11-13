@@ -28,11 +28,13 @@ const PhoneInput = ({ name }: { name: string }) => {
 
   return (
     <input
+      id={name}
       type="tel"
       name={name}
       value={formattedValue}
       onChange={handleChange}
       maxLength={14}
+      autoComplete="on"
       required
       placeholder="(123) 456-7890"
       className="placeholder-slate-400 p-2 outline-1 outline-slate-300 bg-slate-100 w-8/12"
