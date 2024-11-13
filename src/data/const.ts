@@ -79,4 +79,14 @@ const members = [
   },
 ];
 
-export { links, reviews, members };
+const hours = [
+  { 'day': 'sunday', 'time': 'CLOSED' },
+  { 'day': 'monday', 'time': '8:00am - 6:00pm'},
+  { 'day': 'tuesday', 'time': '8:00am - 6:00pm'},
+  { 'day': 'wednesday', 'time': '8:00am - 6:00pm'},
+  { 'day': 'thursday', 'time': '8:00am - 6:00pm'},
+  { 'day': 'friday', 'time': '8:00am - 6:00pm'},
+  { 'day': 'saturday', 'time': '10:00am - 4:00pm'},
+];
+
+export { links, reviews, members, hours };
