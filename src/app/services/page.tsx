@@ -1,4 +1,5 @@
 import Services from "@/components/Services";
+import Link from "next/link";
 
 const ServicesPage = () => {
   return (
@@ -55,7 +56,7 @@ const ServicesPage = () => {
           <div className="text-lg flex flex-col items-start gap-4">
             <p>Ready to pamper your pet? Book an appointment with us today and let us take care of the rest! We look forward to welcoming you and your furry friend to Pawsitively Perfect Grooming.</p>
             <div>
-              <button className="bg-green-700 text-xl text-white rounded-md p-2 hover:bg-green-900">Book Appointment</button>
+              <Link href="/contact" className="bg-green-700 text-xl text-white rounded-md p-2 hover:bg-green-900">Book Appointment</Link>
             </div>
           </div>
         </div>

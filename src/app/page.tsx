@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Services from "@/components/Services";
 import Reviews from "@/components/Reviews";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
           <div className="font-bold bg-gradient-to-r from-black to-transparent p-4 max-w-[28rem] flex flex-col gap-4">
             <h1 className="text-white text-3xl">Give Your Pet the Pampering They Deserve!</h1>
             <div>
-              <button className="bg-green-700 text-xl text-white rounded-md p-2 hover:bg-green-900">Book Appointment</button>
+              <Link href="/contact" className="bg-green-700 text-xl text-white rounded-md p-2 hover:bg-green-900">Book Appointment</Link>
             </div>
           </div>
         </div>
