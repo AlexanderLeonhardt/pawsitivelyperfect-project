@@ -20,7 +20,8 @@ const PickDate = () => {
       filterDate={(date) => excludeDates(date)}
       name="date"
       required
-      className="placeholder-slate-400 p-2 outline-1 outline-slate-300 bg-slate-100"
+      className="placeholder-slate-400 p-2 outline-1 outline-slate-300 bg-slate-100 max-w-full"
+      wrapperClassName="!block"
       placeholderText="Select a date"
     />
   );
