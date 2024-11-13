@@ -10,7 +10,7 @@ const ContactPage = () => {
           <h1 className="text-3xl font-bold text-center">Reach Out To Us</h1>
           <hr className="w-32 border-t-2 border-green-700"/>
           <div className="text-lg flex flex-col items-center gap-4">
-            <p>Let us know here online, over the phone, or in person.</p>
+            <p>Contact us online, over the phone, or in person.</p>
             <div className="flex flex-col items-center">
               <p>1234 Paws Avenue, Dogcity, FL 12345</p>
               <p>(555) 123-4567</p>
@@ -28,7 +28,10 @@ const ContactPage = () => {
             <div className="flex flex-col items-start">
               {hours.map(hour => {
                 const day = hour.day.substring(0, 3).toUpperCase();
-                return <p key={day}><span className="font-bold">{day}</span> - {hour.time}</p>
+                return <div key={day} className="flex justify-between w-full gap-16">
+                  <p><span className="font-bold">{day}</span></p>
+                  <p>{hour.time}</p>
+                </div>
               })}
             </div>
           </div>
