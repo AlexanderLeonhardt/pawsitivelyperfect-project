@@ -41,7 +41,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center">Our Grooming Services</h2>
           <hr className="w-32 border-t-2 border-green-700"/>
           <div className="text-lg flex flex-col items-start gap-4">
-            <p>Whether it&apos;s a quick nail trim or a full grooming session, we have the perfect service to meet your pet&apos;s needs.</p>
+            <p>At Pawsitively Perfect Grooming, we know every pet is unique, which is why we provide a variety of grooming options for pets of all breeds and sizes. From gentle, calming baths to detailed grooming packages that include haircuts, nail trims, and more, our services are designed to ensure your furry friend looks and feels fantastic. Each treatment is carefully tailored to keep your pet comfortable and happy, whether it&apos;s a quick freshen-up or a complete spa day. We&apos;re here to make grooming a stress-free and enjoyable experience for pets and owners alike.</p>
             <Services />
           </div>
         </div>
