@@ -1,4 +1,4 @@
-import Carousel from "./Carousel";
+import Carousel from "../Carousel";
 import Testimonial from "./Testimonial";
 import { reviews } from "@/data/const";
 

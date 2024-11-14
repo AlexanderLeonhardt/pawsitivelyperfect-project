@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Services from "@/components/Services";
-import Reviews from "@/components/Reviews";
+import Reviews from "@/components/reviews/Reviews";
 import Link from "next/link";
 
 export default function Home() {
