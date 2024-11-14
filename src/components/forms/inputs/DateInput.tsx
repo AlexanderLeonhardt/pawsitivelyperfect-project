@@ -4,7 +4,7 @@ import { getDay, subDays } from "date-fns";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
-const PickDate = () => {
+const DateInput = () => {
   const [startDate, setStartDate] = useState<Date | null>(null);
 
   const excludeDates = (date: Date) => {
@@ -27,4 +27,4 @@ const PickDate = () => {
   );
 }
 
-export default PickDate;
+export default DateInput;

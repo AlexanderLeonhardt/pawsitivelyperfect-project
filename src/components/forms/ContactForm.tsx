@@ -1,6 +1,6 @@
 import { redirect } from "next/navigation";
-import PhoneInput from "./PhoneInput";
-import PickDate from "./PickDate";
+import PhoneInput from "./inputs/PhoneInput";
+import DateInput from "./inputs/DateInput";
 
 const ContactForm = () => {
   const formAction = async (data: FormData) => {
@@ -77,7 +77,7 @@ const ContactForm = () => {
         <div className="flex justify-between items-center">
           <label htmlFor="date">Date</label>
           <div className="w-8/12">
-            <PickDate />
+            <DateInput />
           </div>
         </div>
       </div>
