@@ -89,4 +89,43 @@ const hours = [
   { 'day': 'saturday', 'time': '10:00am - 4:00pm'},
 ];
 
-export { links, reviews, members, hours };
+const services = [
+  { 
+    name: "Basic Bath & Brush", 
+    price: 30, 
+    desc: "A refreshing bath and thorough brush to keep your pet's coat clean and shiny.",
+    img: "bone",
+  },
+  { 
+    name: "Full Groom", 
+    price: 50, 
+    desc: "Complete grooming with a haircut, bath, nail trim, and ear cleaning for a polished, pampered look.",
+    img: "grooming",
+  },
+  { 
+    name: "Nail Trim Only", 
+    price: 10, 
+    desc: "Quick and gentle nail trim to keep those paws neat and comfortable.",
+    img: "nail-scissors",
+  },
+  { 
+    name: "Teeth Cleaning", 
+    price: 15, 
+    desc: "Gentle teeth cleaning to support your pet's oral health and fresh breath.",
+    img: "pet-brush",
+  },
+  { 
+    name: "Deshedding Treatment", 
+    price: 40, 
+    desc: "Reduce shedding with a special treatment to keep coats smooth and manageable.",
+    img: "brush",
+  },
+  { 
+    name: "Puppy's First Groom", 
+    price: 25, 
+    desc: "A gentle introduction to grooming, perfect for puppies with a soft bath, brush, and nail trim.",
+    img: "pet-shampoo",
+  },
+];
+
+export { links, reviews, members, hours, services };
